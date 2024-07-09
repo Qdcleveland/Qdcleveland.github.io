@@ -1,0 +1,127 @@
+body {
+    background-color: #4d2e63;
+    color: #c5c5c5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+header {
+    background-color: #2f6730;
+    color: #c5c5c5;
+    text-shadow: 5px 3px 1px #363636;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+nav {
+    background-color: #4b8b50;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #000000;
+}
+nav a {
+    color: #b0b0b0;
+    text-decoration: none;
+    padding: .7em 1.5em;
+    transition: background-color 2s linear;
+}
+nav a:link {
+    color: #b0b0b0;
+}
+nav a:visited {
+    color: #310031;
+}
+nav a:hover {
+    color: #bb4316;
+    background-color: #310031;
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.5em;
+}
+h2 {
+    color: #b0b0b0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+h3 {
+    color: #b0b0b0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+ul {
+    list-style-type: square;
+    color: #b0b0b0;
+}
+section {
+    float: left;
+    width: 50%;
+    padding: 0 2em 5em;
+}
+footer {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 2em;
+}
+table {
+    border: 2px solid #363636;
+    border-collapse: collapse;
+    color: #b0b0b0;
+    margin-left: auto;
+    margin-right: auto;
+}
+td, th {
+    padding: 0.5em;
+    border: 2px solid #363636;
+}
+td {
+    text-align: center;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(odd) {
+    background-color: #310031;
+}
+tr:nth-of-type(even) {
+    background-color: #2f6730;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}
+#wrapper {
+    width: 75%;
+    background-color: #90C7E3;
+    background-image: linear-gradient(to bottom, #4b8b50, #4d2e63);
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #363636;
+    border: 2px solid #310031;
+}
+#three-photos {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+* {
+    box-sizing: border-box;
+}

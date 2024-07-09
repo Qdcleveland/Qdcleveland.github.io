@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <Title>Samantha's Bakery</Title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bakery.css">
+    <link rel="icon" href="images/cookie.jpg" type="image/ico">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Samantha's Bakery</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a> &nbsp;
+            <a href="products.html">Products</a> &nbsp;
+            <a href="orders.html">Orders</a> &nbsp;
+        </nav>
+        <main>
+            <h2>Baked Goods Order Sheet</h2>
+            <h3>
+                Use the text box below to specify what products you may want 
+                and in what quantity. If the order is for a catering, please expect 
+                a minimum of 1 week or longer for the completion of the order 
+                depending on compexity of the order. After the order has been 
+                submited, we will reach out to you within 1-2 business days.
+            </h3>
+                <p>Required fields are marked with an asterisk *</p><br>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+                <label for="myFName">*First Name:</label>
+                <input type="text" name="myFName" id="myFName" required="required">
+
+                <label for="myLName">*Last Name:</label>
+                <input type="text" name="myLName" id="myLName" required="required">
+
+                <label for="myEmail">*E-mail Address:</label>
+                <input type="email" name="myEmail" id="myEmail" required="required">
+
+                <label for="myPhone">Phone Number:</label>
+                <input type="tel" name="myPhone" id="myPhone" maxlength="12">
+
+                <label for="myPickUp">Pickup Date:</label>
+                <input type="date" name="myPickUp" id="myPickUp">
+
+                <label for="myDetails">*Details:</label>
+                <textarea name="myDetails" id="myDetails" required="required"
+                rows="2" cols="30"></textarea>
+
+                <input type="submit">
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; Samantha's Bakery 2024 <br>
+            <a href="mailto:samanthas.bakery@email.com">
+                Samanthas.bakery@email.com</a>
+        </footer>
+    </div>
+</body>
+</html>
